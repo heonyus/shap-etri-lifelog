@@ -1,0 +1,57 @@
+data/
+.venv/
+__pycache__/
+.cursor/
+
+# macOS, Linux, Windows 시스템별 불필요 파일 무시
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Python 환경/테스트/IDE 관련
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+.ipynb_checkpoints/
+.cache/
+*.egg-info/
+dist/
+build/
+
+# 환경설정 및 보안
+.env
+.env.*
+
+# VSCode, PyCharm 등 IDE 설정
+.vscode/
+.idea/
+
+# Jupyter 출력
+*.nbconvert.ipynb
+
+# 결과 및 중간 산출물
+runs/
+logs/
+checkpoints/
+artifacts/
+outputs/
+models/
+*.ckpt
+*.pth
+*.h5
+*.onnx
+
+# 데이터/민감정보 폴더
+data/
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+
